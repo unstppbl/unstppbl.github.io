@@ -1,4 +1,4 @@
-baseURL: 'https://unstppbl.github.io/'
+baseURL: 'https://unstppbl.kz/'
 languageCode: 'en-us'
 title: 'U N S T P P B L'
 theme: 'PaperMod'
@@ -34,7 +34,6 @@ languages:
                 #   url: categories/
                 #   identifier: categories
                 #   weight: 10
-
 params:
     env: production
     homeInfoParams:
