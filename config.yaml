@@ -1,0 +1,68 @@
+baseURL: 'https://unstppbl.github.io/'
+languageCode: 'en-us'
+title: 'U N S T P P B L'
+theme: 'PaperMod'
+enableRobotsTXT: true
+enableEmoji: true
+pygmentsUseClasses: true
+buildDrafts: false
+buildFuture: false
+minify:
+    disableXML: true
+languages:
+    en:
+        languageName: "English"
+        weight: 1
+        taxonomies:
+          category: categories
+          tag: tags
+          series: series
+        menu:
+            main:
+                - name: Archive
+                  url: archives
+                  weight: 5
+                - name: Search
+                  url: search/
+                  weight: 10
+                - name: Tags
+                  url: tags/
+                  identifier: tags
+                  weight: 10
+                # - name: Categories
+                #   url: categories/
+                #   identifier: categories
+                #   weight: 10
+
+params:
+    env: production
+    homeInfoParams:
+        Title: ""
+        Content: >
+            A blog about nothing and everything. Here you'll find
+            something about software engineering, investments, sports, etc.
+            All that I'd like to share about
+        author: unstppbl
+
+    socialIcons:
+        - name: "twitter"
+          url: "https://twitter.com/unstppbl/"
+        - name: "github"
+          url: "https://github.com/unstppbl/"
+        - name: "telegram"
+          url: "https://t.me/unstppbl/"
+    ShowShareButtons: true
+    ShowReadingTime: true
+    ShowBreadCrumbs: true
+    ShowPostNavLinks: true
+    ShowCodeCopyButtons: true
+    editPost:
+        URL: "https://github.com/unstppbl/unstppbl.github.io/tree/main/content"
+        Text: "Suggest Changes" # edit text
+        appendFilePath: true # to append file path to Edit link    
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
+
