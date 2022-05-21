@@ -7,6 +7,7 @@ enableEmoji: true
 pygmentsUseClasses: true
 buildDrafts: false
 buildFuture: false
+googleAnalytics: G-TKSEM9K1TW
 minify:
     disableXML: true
 languages:
@@ -57,7 +58,7 @@ params:
     ShowPostNavLinks: true
     ShowCodeCopyButtons: true
     editPost:
-        URL: "https://github.com/unstppbl/unstppbl.github.io/tree/main/content"
+        URL: "https://github.com/unstppbl/unstppbl.github.io/tree/master/content"
         Text: "Suggest Changes" # edit text
         appendFilePath: true # to append file path to Edit link    
 outputs:
